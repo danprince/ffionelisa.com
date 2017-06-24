@@ -66,6 +66,10 @@ a:hover {
   padding: 48px;
 }
 
+.site-image-list {
+  user-select: none;
+}
+
 .image-block {
   margin: 10px;
   display: inline-block;
