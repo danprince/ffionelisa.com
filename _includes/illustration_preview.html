@@ -1,0 +1,22 @@
+<div class="image-block" style="background:{{block.color}}">
+  <img class="image-thumb" width="250" src="{{block.thumbnail}}" />
+  <div class="image-preview">
+    <div class="image-preview-container">
+      <span class="image-preview-text">{{block.title}}</span>
+    </div>
+  </div>
+  <div class="overlay">
+    <div class="overlay-close">
+      ✕
+    </div>
+    <div class="modal image-modal">
+      <div class="image-modal-image" style="background:{{block.color}}">
+        <img src="{{block.image}}" />
+      </div>
+    </div>
+    <div class="image-description">
+      <h2 class="image-modal-title">{{block.title}}</h2>
+      <p class="image-modal-description">{{block.text}}</p>
+    </div>
+  </div>
+</div>

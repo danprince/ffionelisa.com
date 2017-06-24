@@ -164,7 +164,6 @@ a:hover {
 }
 
 .image-modal-image {
-  background: rgb(195, 19, 19);
   padding: 16px;
 }
 
@@ -188,7 +187,6 @@ a:hover {
 
 .series-modal {
   margin: 0 auto;
-  padding: 16px;
 }
 
 .series-modal-meta {

@@ -3,29 +3,16 @@ layout: default
 ---
 
 <div class="site-image-list">
-  {% for work in site.work %}
-    <div class="image-block" style="background:{{work.color}}">
-      <img class="image-thumb" width="250" src="{{work.thumbnail}}" />
-      <div class="image-preview">
-        <div class="image-preview-container">
-          <span class="image-preview-text">{{work.title}}</span>
-        </div>
-      </div>
-      <div class="overlay">
-        <div class="overlay-close">
-          ✕
-        </div>
-        <div class="modal image-modal">
-          <div class="image-modal-image" style="background:{{work.color}}">
-            <img src="{{work.image}}" />
-          </div>
-        </div>
-        <div class="image-description">
-          <h2 class="image-modal-title">{{work.title}}</h2>
-          <p class="image-modal-description">{{work.text}}</p>
-        </div>
-      </div>
-    </div>
+  {% assign blocks = site.work | concat: site.series %}
+
+  {% for block in blocks reversed %}
+    {% if block.image %}
+      {% if block.series == nil %}
+        {% include illustration_preview.html block=block %}
+      {% endif %}
+    {% else %}
+      {% include series_preview.html block=block %}
+    {% endif %}
   {% endfor %}
 </div>
 

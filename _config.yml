@@ -5,6 +5,8 @@ markdown: kramdown
 collections:
   work:
     output: false
+  series:
+    output: false
   pages:
     output: true
     permalink: /:name

@@ -3,20 +3,21 @@ backend:
   repo: danprince/ffionelisa.com
   branch: master
 
-media_folder: "img/uploads" # Folder where user uploaded files should go
+media_folder: "img/uploads"
 
 collections:
-  - name: "work"
-    label: "Work"
+  - name: "illustrations"
+    label: "Illustrations"
     folder: "_work"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Text", name: "text", widget: "markdown" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Thumbnail", name: "thumbnail", widget: "image" }
-      - { label: "Text", name: "text", widget: "markdown" }
       - { label: "Color", name: "color", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Series (Optional)", name: "series", widget: "string", required: false }
 
   - name: "pages"
     label: "Pages"
@@ -26,3 +27,14 @@ collections:
       - { label: "Layout", name: "layout", widget: "string", default: "default" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "series"
+    label: "Series"
+    folder: "_series"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+      - { label: "Color", name: "color", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
