@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: danprince/ffionelisa.com
+  branch: master
+
+media_folder: "img/uploads" # Folder where user uploaded files should go
+
+collections:
+  - name: "work"
+    label: "Work"
+    folder: "_work"
+    create: true
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Text", name: "text", widget: "markdown" }
+      - { label: "Color", name: "color", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
