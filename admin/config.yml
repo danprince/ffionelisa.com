@@ -25,4 +25,4 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "string", default: "default" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
-      - { label: "Content", name: "content", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }
