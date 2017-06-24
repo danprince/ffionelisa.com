@@ -6,7 +6,8 @@ collections:
   work:
     output: false
   series:
-    output: false
+    output: true
+    permalink: /series/:name
   pages:
     output: true
-    permalink: /:name
+    permalink: /:path

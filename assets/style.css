@@ -81,7 +81,7 @@ a:hover {
   position: relative;
 }
 
-.image-block img {
+.image-block .image-thumb {
   display: block;
 }
 
@@ -95,6 +95,17 @@ a:hover {
   color: white;
   text-align: center;
   transition-duration: 0.3s;
+}
+
+.image-preview hr {
+  border: 0;
+  height: 10px;
+  color: white;
+  width: 60%;
+  margin: 0 auto;
+  border-bottom: solid 1px white;
+  display: block;
+  opacity: .5;
 }
 
 .image-preview-container {

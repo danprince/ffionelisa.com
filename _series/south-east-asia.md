@@ -1,5 +1,7 @@
 ---
+layout: series
 title: South East Asia
+path: south-east-asia
 description: >-
   A series of illustrations inspired by travels in Vietnam, Thailand and Sri
   Lanka.
