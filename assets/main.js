@@ -13,12 +13,12 @@ var activeModal = null;
 function showModal() {
   if (activeModal == null) {
     activeModal = $(this).find('.overlay');
-    activeModal.fadeIn();
+    activeModal.fadeIn(200);
   }
 }
 
 function hideModal() {
-  activeModal.fadeOut(function() {
+  activeModal.fadeOut(200, function() {
     activeModal = null;
   });
 }

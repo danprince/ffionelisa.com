@@ -107,6 +107,11 @@ a:hover {
   vertical-align: middle;
 }
 
+.image-thumb {
+  opacity: 1;
+  transition-duration: .3s;
+}
+
 .image-block:hover .image-thumb {
   opacity: .1;
 }
