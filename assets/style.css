@@ -39,15 +39,23 @@ a:hover {
   font-weight: 200;
 }
 
+.site-nav svg {
+  position: relative;
+  bottom: -0.15em;
+}
+
 .site-nav a {
   margin: 0 16px;
 }
 
-.site-main {
-  padding: 16px;
+.site-nav a.active {
+  color: #999;
+  text-decoration: none;
+  cursor: default;
 }
 
-.site-image-list {
+.site-content {
+  padding: 16px;
   width: 100%;
   max-width: 670px;
   margin: 0 auto;

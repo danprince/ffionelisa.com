@@ -3,4 +3,8 @@ email: contact@ffionelisa.com
 instagram_username: ffionelisa
 markdown: kramdown
 collections:
-  - work
+  work:
+    output: false
+  pages:
+    output: true
+    permalink: /:name
