@@ -21,6 +21,7 @@ collections:
   - name: "pages"
     label: "Pages"
     folder: "_pages"
+    create: true
     fields:
       - { label: "Layout", name: "layout", widget: "string", default: "default" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
