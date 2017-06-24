@@ -69,6 +69,7 @@ a:hover {
 }
 
 .image-preview {
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -85,12 +86,16 @@ a:hover {
   display: table;
 }
 
+.image-block:hover .image-preview {
+  display: block;
+}
+
 .image-preview-text {
   display: table-cell;
   vertical-align: middle;
 }
 
-.image-block:hover img {
+.image-block:hover .image-thumb {
   opacity: .1;
 }
 
