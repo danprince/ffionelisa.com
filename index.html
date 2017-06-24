@@ -2,35 +2,30 @@
 layout: default
 ---
 
-{% include header.html %}
-
-<main class="site-main">
-  <div class="site-image-list">
-    {% for work in site.work %}
-      <div class="image-block">
-        <img width="200" src="{{work.thumbnail}}" />
-        <div class="image-preview">
-          <div class="image-preview-container">
-            <span class="image-preview-text">{{work.title}}</span>
-          </div>
-        </div>
-        <div class="overlay">
-          <div class="overlay-close">
-            ✕
-          </div>
-          <div class="modal image-modal">
-            <div class="image-modal-image">
-              <img src="{{work.image}}" />
-            </div>
-          </div>
-          <div class="image-description">
-            <h2 class="image-modal-title">{{work.title}}</h2>
-            <p class="image-modal-description">{{work.text}}</p>
-          </div>
+<div class="site-image-list">
+  {% for work in site.work %}
+    <div class="image-block">
+      <img width="200" src="{{work.thumbnail}}" />
+      <div class="image-preview">
+        <div class="image-preview-container">
+          <span class="image-preview-text">{{work.title}}</span>
         </div>
       </div>
-    {% endfor %}
-  </div>
-</main>
+      <div class="overlay">
+        <div class="overlay-close">
+          ✕
+        </div>
+        <div class="modal image-modal">
+          <div class="image-modal-image">
+            <img src="{{work.image}}" />
+          </div>
+        </div>
+        <div class="image-description">
+          <h2 class="image-modal-title">{{work.title}}</h2>
+          <p class="image-modal-description">{{work.text}}</p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
 
-{% include footer.html %}
