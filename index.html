@@ -4,7 +4,7 @@ layout: default
 
 <div class="site-image-list">
   {% for work in site.work %}
-    <div class="image-block">
+    <div class="image-block" style="background:{{work.color}}">
       <img width="200" src="{{work.thumbnail}}" />
       <div class="image-preview">
         <div class="image-preview-container">
@@ -16,7 +16,7 @@ layout: default
           ✕
         </div>
         <div class="modal image-modal">
-          <div class="image-modal-image">
+          <div class="image-modal-image" style="background:{{work.color}}">
             <img src="{{work.image}}" />
           </div>
         </div>

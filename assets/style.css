@@ -75,9 +75,7 @@ a:hover {
   right: 0;
   bottom: 0;
   color: white;
-  background: rgba(195, 19, 19, .9);
   text-align: center;
-  opacity: 0;
   transition-duration: 0.3s;
 }
 
@@ -92,8 +90,8 @@ a:hover {
   vertical-align: middle;
 }
 
-.image-block:hover .image-preview {
-  opacity: 1;
+.image-block:hover img {
+  opacity: .1;
 }
 
 .overlay {
@@ -104,7 +102,8 @@ a:hover {
   bottom: 0;
   right: 0;
   display: none;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, .9);
+  z-index: 100;
 }
 
 .overlay-close {
