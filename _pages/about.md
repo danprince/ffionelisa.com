@@ -16,7 +16,7 @@ body_cy: >2
   blant a bron bob amser gyda ymdeimlad o naratif.
 
 
-  Pan nad wyf yn darlunio wrth fy modd yn heicio yng nghefn gwlad Gogledd Cymru,
+  Pan nid wyf yn darlunio wrth fy modd yn heicio yng nghefn gwlad Gogledd Cymru,
   cynllunio fy nhaith nesaf dramor, canu, neu phobi.
 
 
@@ -34,5 +34,6 @@ I have a love of decorative surfaces, patterns and colours coming from a backgro
 When I'm not illustrating I'm usually found hiking in the North Wales countryside, planning my next trip abroad, singing, or baking.
 
 Chances are, I would love to work with you so if you have an idea you would like to bring to life feel free to get in touch.
+
 
 
