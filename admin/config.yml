@@ -11,10 +11,10 @@ collections:
     folder: "_work"
     create: true
     fields:
-      - { label: "Title (English)", name: "title", widget: "string", tagname: "h1", required: false }
-      - { label: "Title (Cymraeg)", name: "title_cy", widget: "string", tagname: "h1", required: false }
-      - { label: "Text (English)", name: "text", widget: "markdown", required: false }
-      - { label: "Text (Cymraeg)", name: "text_cy", widget: "markdown", required: false }
+      - { label: "Title (English)", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Title (Cymraeg)", name: "title_cy", widget: "string", tagname: "h1" }
+      - { label: "Text (English)", name: "text", widget: "markdown" }
+      - { label: "Text (Cymraeg)", name: "text_cy", widget: "markdown" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Thumbnail", name: "thumbnail", widget: "image" }
       - { label: "Color", name: "color", widget: "string", required: false }
@@ -27,8 +27,8 @@ collections:
     create: true
     fields:
       - { label: "Layout", name: "layout", widget: "string", default: "page" }
-      - { label: "Title (English)", name: "title", widget: "string", tagname: "h1", required: false }
-      - { label: "Title (Cymraeg)", name: "title_cy", widget: "string", tagname: "h1", required: false }
+      - { label: "Title (English)", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Title (Cymraeg)", name: "title_cy", widget: "string", tagname: "h1" }
       - { label: "Body (English)", name: "body", widget: "markdown" }
       - { label: "Body (Cymraeg)", name: "body_cy", widget: "markdown" }
 
@@ -38,7 +38,6 @@ collections:
     create: true
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "series" }
-      - { label: "ID", name: "id", widget: "string" }
       - { label: "Title (English)", name: "title", widget: "string" }
       - { label: "Title (Cymraeg)", name: "title_cy", widget: "string" }
       - { label: "Description (English)", name: "description", widget: "markdown" }
