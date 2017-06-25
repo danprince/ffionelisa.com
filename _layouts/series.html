@@ -5,8 +5,12 @@ layout: default
 {% assign illustrations = site.work | where:"series",page.title %}
 
 <header class="series-header">
-  <h1 class="series-title">{{page.title}}</h1>
-  <p class="series-description">{{page.description}}</p>
+  <h1 class="series-title">
+    <span data-lang="en">{{page.title}}</span>
+    <span data-lang="cy">{{page.title_cy}}</span>
+  </h1>
+  <p data-lang="en" class="series-description">{{page.description}}</p>
+  <p data-lang="cy" class="series-description">{{page.description_cy}}</p>
 </header>
 
 {% for block in illustrations reversed %}
