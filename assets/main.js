@@ -57,12 +57,13 @@ var Events = {
   onModalClick: function(event) {
     var dataIndex = $(this).attr('data-index');
     var index = Number(dataIndex);
+    if (Modal.isShowing()) return;
     Modal.hide();
     Modal.show(index);
   },
   onOverlayClick: function(event) {
-    if (event.target !== event.currentTarget) return;
     event.stopPropagation();
+    if (event.target !== event.currentTarget) return;
     Modal.hide();
   },
   onKeyUp: function(event) {
