@@ -11,12 +11,12 @@
   </head>
   <body data-lang="en">
     <script>
-      setLanguage(localStorage.lang || 'en');
-
       function setLanguage(lang) {
         document.body.setAttribute('data-lang', lang);
         localStorage.lang = lang;
       }
+
+      setLanguage(localStorage.lang || 'en');
     </script>
     {% include header.html %}
     <main class="site-content">{{content}}</main>

@@ -26,7 +26,7 @@ collections:
     folder: "_pages"
     create: true
     fields:
-      - { label: "Layout", name: "layout", widget: "string", default: "default" }
+      - { label: "Layout", name: "layout", widget: "string", default: "page" }
       - { label: "Title (English)", name: "title", widget: "string", tagname: "h1", required: false }
       - { label: "Title (Cymraeg)", name: "title_cy", widget: "string", tagname: "h1", required: false }
       - { label: "Body (English)", name: "body", widget: "markdown" }
