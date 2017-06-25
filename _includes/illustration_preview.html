@@ -2,7 +2,10 @@
   <img class="image-thumb" width="250" height="250" src="{{block.thumbnail}}" />
   <div class="image-preview">
     <div class="image-preview-container">
-      <span class="image-preview-text">{{block.title}}</span>
+      <span class="image-preview-text">
+        <span data-lang="en">{{block.title}}</span>
+        <span data-lang="cy">{{block.title_cy}}</span>
+      </span>
     </div>
   </div>
   <div class="overlay">
@@ -15,8 +18,12 @@
       </div>
     </div>
     <div class="image-description">
-      <h2 class="image-modal-title">{{block.title}}</h2>
-      <p class="image-modal-description">{{block.text}}</p>
+      <h2 class="image-modal-title">
+        <span data-lang="en">{{block.title}}</span>
+        <span data-lang="cy">{{block.title_cy}}</span>
+      </h2>
+      <p data-lang="en" class="image-modal-description">{{block.text}}</p>
+      <p data-lang="cy" class="image-modal-description">{{block.text_cy}}</p>
     </div>
   </div>
 </div>

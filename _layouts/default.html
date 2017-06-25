@@ -9,7 +9,15 @@
     <link rel="stylesheet" href="/assets/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Dosis:300" rel="stylesheet">
   </head>
-  <body>
+  <body data-lang="en">
+    <script>
+      setLanguage(localStorage.lang || 'en');
+
+      function setLanguage(lang) {
+        document.body.setAttribute('data-lang', lang);
+        localStorage.lang = lang;
+      }
+    </script>
     {% include header.html %}
     <main class="site-content">{{content}}</main>
     {% include footer.html %}

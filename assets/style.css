@@ -20,6 +20,27 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Biligual styles */
+
+#lang-en, #lang-cy {
+  cursor: pointer;
+}
+
+body[data-lang="en"] #lang-en,
+body[data-lang="cy"] #lang-cy {
+  display: none;
+}
+
+body[data-lang="en"] [data-lang="en"],
+body[data-lang="cy"] [data-lang="cy"] {
+  display: auto;
+}
+
+body[data-lang="en"] [data-lang="cy"],
+body[data-lang="cy"] [data-lang="en"] {
+  display: none;
+}
+
 .site-header {
   overflow: hidden;
   padding: 48px;
@@ -204,6 +225,10 @@ a:hover {
   padding: 24px;
 }
 
+.series-meta {
+  font-size: 12pt;
+}
+
 .series-modal-title {
   font-size: inherit;
   margin: 8px;
@@ -216,6 +241,20 @@ a:hover {
 
 .series-modal-images img {
   margin: 8px;
+}
+
+.series-footer {
+  margin: 32px 0;
+  text-align: center;
+}
+
+.series-header {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.series-title {
+  margin-top: 0;
 }
 
 .contact-form {
@@ -273,7 +312,7 @@ a:hover {
   background: #578c57;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 660px) {
   .site-header {
     text-align: center;
   }

@@ -4,15 +4,15 @@ layout: default
 
 {% assign illustrations = site.work | where:"series",page.title %}
 
-<center>
-  <h1>{{page.title}}</h1>
-  <p>{{page.description}}</p>
-</center>
+<header class="series-header">
+  <h1 class="series-title">{{page.title}}</h1>
+  <p class="series-description">{{page.description}}</p>
+</header>
 
 {% for block in illustrations reversed %}
   {% include illustration_preview.html block=block %}
 {% endfor %}
 
-<center>
+<footer class="series-footer">
   <a href="/"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width=".7em" height=".7em" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg> Back to illustrations</a>
-</center>
+</footer>

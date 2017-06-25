@@ -22,3 +22,15 @@ function hideModal() {
     activeModal = null;
   });
 }
+
+$('#lang-en').on('click', showEnglish);
+$('#lang-cy').on('click', showCymraeg);
+
+function showEnglish() {
+  setLanguage('en');
+}
+
+function showCymraeg() {
+  setLanguage('cy');
+}
+
