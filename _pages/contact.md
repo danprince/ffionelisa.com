@@ -11,7 +11,7 @@ body_cy: >
     </div>
     <div class="form-control">
       <label for="email">Ebost: </label>
-      <input type="email" id="email" name="_ateb i" placeholder="your@email.com" size="32">
+      <input type="email" id="email" name="_ateb i" placeholder="eich@ebost.com" size="32">
     </div>
     <div class="form-control">
       <label for="message">Neges</label>
@@ -36,4 +36,5 @@ body_cy: >
   </div>
   <input class="button" type="submit" value="Send">
 </form>
+
 
