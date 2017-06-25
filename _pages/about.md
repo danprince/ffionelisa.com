@@ -4,8 +4,9 @@ title: About
 title_cy: Amdanaf fi
 body_cy: >
 
-  ![](http://i.imgur.com/CAcT2HR.png)
-
+  <center>
+    <img src="http://i.imgur.com/CAcT2HR.png"/>
+  </center>
 
 
 
@@ -26,8 +27,10 @@ body_cy: >
   Tebygolrwydd yw, byddwn wrth fy modd yn gweithio gyda chi, felly os oes
   gennych syniad yr hoffech i ddod â croeso i chi gysylltu â ni.
 ---
+<center>
+  <img src="http://i.imgur.com/CAcT2HR.png"/>
+</center>
 
-![](http://i.imgur.com/CAcT2HR.png)
 
 I am a Welsh illustrator living and working in the foothills of Snowdonia, Wales, UK.
 
@@ -36,6 +39,7 @@ I have a love of decorative surfaces, patterns and colours coming from a backgro
 When I'm not illustrating I'm usually found hiking in the North Wales countryside, planning my next trip abroad, singing, or baking.
 
 Chances are, I would love to work with you so if you have an idea you would like to bring to life feel free to get in touch.
+
 
 
 
