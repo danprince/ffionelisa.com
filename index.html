@@ -2,16 +2,19 @@
 layout: default
 ---
 
-<div class="site-image-list">
-  {% assign blocks = site.work | concat: site.series %}
+{% assign blocks = site.work | concat: site.series %}
+{% assign index = 0 %}
 
+<div class="site-image-list">
   {% for block in blocks reversed %}
     {% if block.image %}
       {% if block.series == nil %}
-        {% include illustration_preview.html block=block %}
+        {% include illustration_preview.html block=block index=index %}
+        {% assign index = index | plus: 1 %}
       {% endif %}
     {% else %}
-      {% include series_preview.html block=block %}
+      {% include series_preview.html block=block index=index %}
+      {% assign index = index | plus: 1 %}
     {% endif %}
   {% endfor %}
 </div>

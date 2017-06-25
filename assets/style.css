@@ -9,6 +9,7 @@ body {
 
 img {
   max-width: 100%;
+  pointer-events: none;
 }
 
 a {
@@ -310,6 +311,11 @@ body[data-lang="cy"] [data-lang="en"] {
 
 .button:hover {
   background: #578c57;
+}
+
+.page img {
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 660px) {

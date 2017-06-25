@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% assign illustrations = site.work | where:"series",page.title %}
+{% assign index = 0 %}
 
 <header class="series-header">
   <h1 class="series-title">
@@ -14,7 +15,8 @@ layout: default
 </header>
 
 {% for block in illustrations reversed %}
-  {% include illustration_preview.html block=block %}
+  {% include illustration_preview.html block=block index=index %}
+  {% assign index = index | plus: 1 %}
 {% endfor %}
 
 <footer class="series-footer">
