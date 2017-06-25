@@ -318,6 +318,10 @@ body[data-lang="cy"] [data-lang="en"] {
   margin: 0 auto;
 }
 
+.page a {
+  color: #6ea96e;
+}
+
 @media (max-width: 660px) {
   .site-header {
     text-align: center;
