@@ -2,13 +2,8 @@
 layout: page
 title: About
 title_cy: Amdanaf fi
-body_cy: >2
-   <center>
-      <img src="http://i.imgur.com/CAcT2HR.png"/>
-    </center>
-
-  Rwyf yn ddarlunydd Cymreig sy'n byw a gweithio yn nhroedfryniau Eryri, Gogledd
-  Cymru.
+body_cy: >
+  Rwyf yn ddarlunydd Cymreig sy'n byw a gweithio yn nhroedfryniau Eryri.
 
 
   Mae gen i gariad tuag at patrymau addurniadol a lliwiau sy'n dod o gefndir
@@ -23,17 +18,11 @@ body_cy: >2
   Tebygolrwydd yw, byddwn wrth fy modd gweithio gyda chi, felly os oes gennych
   syniad yr hoffech ddod i fywyd croeso i chi gysylltu gydaf.
 ---
- <center>
-    <img src="http://i.imgur.com/CAcT2HR.png"/>
-  </center>
-
-I am a Welsh illustrator living and working in the foothills of Snowdonia, Wales, UK.
+I am a Welsh illustrator living and working in the foothills of Snowdonia.
 
 I have a love of decorative surfaces, patterns and colours coming from a background in textiles and print design. I would describe my style as fun, child friendly and with almost always a sense of narrative.
 
 When I'm not illustrating I'm usually found hiking in the North Wales countryside, planning my next trip abroad, singing, or baking.
 
 Chances are, I would love to work with you so if you have an idea you would like to bring to life feel free to get in touch.
-
-
 
