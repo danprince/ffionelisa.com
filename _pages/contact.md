@@ -1,7 +1,12 @@
 ---
 layout: page
 title: Contact
+title_cy: Cysylltu
 body_cy: >
+  Gallwch gysylltu gydaf drwy fy ebost: ffionelisawilliams@gmail.com neu wrth
+  lenwi y ffurflen isod.
+
+
 
   <form class="contact-form"
   action="https://formspree.io/ffionelisawilliams@gmail.com" method="POST">
@@ -20,6 +25,8 @@ body_cy: >
     <input class="button" type="submit" value="Send">
   </form>
 ---
+You can either get in touch by email at: ffionelisawilliams@gmail.com or through the form below.
+
 
 <form class="contact-form" action="https://formspree.io/ffionelisawilliams@gmail.com" method="POST">
   <div class="form-control">
@@ -36,5 +43,6 @@ body_cy: >
   </div>
   <input class="button" type="submit" value="Send">
 </form>
+
 
 
