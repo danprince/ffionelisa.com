@@ -1,6 +1,24 @@
 ---
 layout: default
 title: Contact
+body_cy: >
+
+  <form class="contact-form"
+  action="https://formspree.io/ffionelisawilliams@gmail.com" method="POST">
+    <div class="form-control">
+      <label for="name">Enw: </label>
+      <input type="text" id="name" name="name" placeholder="Eich enw" size="32">
+    </div>
+    <div class="form-control">
+      <label for="email">Ebost: </label>
+      <input type="email" id="email" name="_ateb i" placeholder="your@email.com" size="32">
+    </div>
+    <div class="form-control">
+      <label for="message">Neges</label>
+      <textarea name="message" id="message" placeholder="Beth allai eich helpu gyda?"></textarea>
+    </div>
+    <input class="button" type="submit" value="Send">
+  </form>
 ---
 
 <form class="contact-form" action="https://formspree.io/ffionelisawilliams@gmail.com" method="POST">
@@ -18,3 +36,4 @@ title: Contact
   </div>
   <input class="button" type="submit" value="Send">
 </form>
+
