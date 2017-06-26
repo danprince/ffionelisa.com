@@ -54,6 +54,7 @@ var Modal = {
 };
 
 var Events = {
+  touchStart: null,
   onModalClick: function(event) {
     var dataIndex = $(this).attr('data-index');
     var index = Number(dataIndex);
@@ -75,13 +76,41 @@ var Events = {
   },
   onShowCymraeg: function() {
     setLanguage('cy');
+  },
+  onNextModal: function() {
+    Modal.next();
+  },
+  onTouchStart: function(event) {
+    Events.touchStart = event.touches[0];
+  },
+  onTouchEnd: function(event) {
+    var touchEnd = event.changedTouches[0];
+    var touchStart = Events.touchStart;
+
+    if (touchEnd.screenX < touchStart.screenX) {
+      return Modal.next();
+    }
+
+    if (touchEnd.screenX > touchStart.screenX) {
+      Modal.prev();
+    }
+  },
+  onToggleMobileMenu: function(event) {
+    let nav = $('.site-nav');
+    let showing = nav.attr('data-showing') === 'true';
+    nav.attr('data-showing', !showing);
+    $(document.body).attr('data-no-scroll', !showing);
   }
 };
 
 $(window).on('keyup', Events.onKeyUp);
+$(window).on('touchstart', Events.onTouchStart);
+$(window).on('touchend', Events.onTouchEnd);
 
 $('.image-block').on('click', Events.onModalClick);
 $('.overlay').on('click', Events.onOverlayClick),
 $('.overlay-close').on('click', Events.onOverlayClick),
 $('#lang-en').on('click', Events.onShowEnglish);
 $('#lang-cy').on('click', Events.onShowCymraeg);
+$('#mobile-menu').on('click', Events.onToggleMobileMenu);
+
