@@ -23,7 +23,9 @@ body_cy: >
       <label for="message">Neges:</label>
       <textarea name="message" id="message" placeholder="Beth allai eich helpu gyda?"></textarea>
     </div>
-    <input class="button" type="submit" value="Send">
+    <center>
+      <input class="button" type="submit" value="Send">
+    </center>
   </form>
 ---
 You can either get in touch by email at [ffionelisawilliams@gmail.com](mailto:ffionelisawilliams@gmail.com) or through the form below.
@@ -42,7 +44,9 @@ You can either get in touch by email at [ffionelisawilliams@gmail.com](mailto:ff
     <label for="message">Message:</label>
     <textarea name="message" id="message" placeholder="What can I help you with?"></textarea>
   </div>
-  <input class="button" type="submit" value="Send">
+  <center>
+    <input class="button" type="submit" value="Send">
+  </center>
 </form>
 
 
