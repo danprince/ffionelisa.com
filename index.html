@@ -13,8 +13,7 @@ layout: default
         {% assign index = index | plus: 1 %}
       {% endif %}
     {% else %}
-      {% include series_preview.html block=block index=index %}
-      {% assign index = index | plus: 1 %}
+      {% include series_preview.html block=block %}
     {% endif %}
   {% endfor %}
 </div>

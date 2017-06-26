@@ -1,3 +1,12 @@
+var Scroll = {
+  lock: function() {
+    $(document.body).attr('data-no-scroll', true);
+  },
+  unlock: function() {
+    $(document.body).attr('data-no-scroll', false);
+  }
+};
+
 var Modal = {
   index: -1,
 
@@ -23,6 +32,7 @@ var Modal = {
 
     Modal.index = index;
     overlay.fadeIn(300);
+    Scroll.lock();
   },
 
   hide: function() {
@@ -32,6 +42,7 @@ var Modal = {
 
     Modal.index = -1;
     overlay.fadeOut(200);
+    Scroll.unlock();
   },
 
   jump: function(index) {
@@ -117,7 +128,12 @@ var Events = {
     let nav = $('.site-nav');
     let showing = nav.attr('data-showing') === 'true';
     nav.attr('data-showing', !showing);
-    $(document.body).attr('data-no-scroll', !showing);
+
+    if (showing) {
+      Scroll.lock();
+    } else {
+      Scroll.unlock();
+    }
   }
 };
 
