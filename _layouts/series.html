@@ -14,10 +14,12 @@ layout: default
   <p data-lang="cy" class="series-description">{{page.description_cy}}</p>
 </header>
 
-{% for block in illustrations reversed %}
-  {% include illustration_preview.html block=block index=index %}
-  {% assign index = index | plus: 1 %}
-{% endfor %}
+<div class="site-image-list">
+  {% for block in illustrations reversed %}
+    {% include illustration_preview.html block=block index=index %}
+    {% assign index = index | plus: 1 %}
+  {% endfor %}
+</div>
 
 <footer class="series-footer">
   <a href="/">

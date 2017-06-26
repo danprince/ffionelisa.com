@@ -364,11 +364,9 @@ body[data-lang="cy"] [data-lang="en"] {
 
   .site-nav a {
     display: block;
-    padding: 8px 0;
-  }
-
-  .site-header {
-    text-align: center;
+    padding: 16px 0;
+    font-size: 20pt;
+    margin: 0 8px;
   }
 
   .site-header, .site-footer {
@@ -379,8 +377,8 @@ body[data-lang="cy"] [data-lang="en"] {
     width: 100%;
   }
 
-  .site-nav a {
-    margin: 0 8px;
+  .site-image-list {
+    text-align: center;
   }
 }
 
