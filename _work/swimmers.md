@@ -2,7 +2,7 @@
 title: Swimmers
 title_cy: Nofwyr
 text: |
-  Peronal Work
+  Personal Work
 text_cy: |
   Gwaith Personol
 image: /img/uploads/swimmers_web.jpg
@@ -11,6 +11,7 @@ color: '#37beba'
 date: 2017-06-27T12:18:17.046Z
 series: null
 ---
+
 
 
 
