@@ -5,10 +5,11 @@ text: |
   Personal Work
 text_cy: |
   Gwaith Personol
-image: /img/uploads/ocean.png
-thumbnail: /img/uploads/ocean.jpg
+image: /img/uploads/ocean-1.png
+thumbnail: /img/uploads/ocean_thumb.jpg
 color: transparent
 date: 2017-07-14T15:14:50.432Z
 series: null
 ---
+
 
