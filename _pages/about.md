@@ -3,7 +3,7 @@ layout: page
 title: About
 title_cy: Amdanaf fi
 body_cy: >
-  ![](http://i.imgur.com/CAcT2HR.png)
+  ![](https://i.imgur.com/CAcT2HR.png)
 
 
   Rwyf yn ddarlunydd Cymreig sy'n byw a gweithio yn nhroedfryniau Eryri.
@@ -22,7 +22,7 @@ body_cy: >
   syniad yr hoffech ddod i fywyd croeso i chi gysylltu gydaf.
 ---
 
-![](http://i.imgur.com/CAcT2HR.png)
+![](https://i.imgur.com/CAcT2HR.png)
 
 I am a Welsh illustrator living and working in the foothills of Snowdonia.
 
