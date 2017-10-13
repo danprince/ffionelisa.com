@@ -1,5 +1,5 @@
 ---
-title: 'Vegan Blueberry Ingredients '
+title: 'Vegan Blueberry Cheesecake Ingredients '
 title_cy: Cynhwysion Cacen Gaws Llusen Vegan
 text: Personal Work
 text_cy: Gwaith Personol
@@ -9,4 +9,5 @@ color: '#c472cd'
 date: 2017-10-13T17:39:49.770Z
 series: null
 ---
+
 
