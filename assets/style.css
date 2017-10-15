@@ -94,6 +94,12 @@ body[data-lang="cy"] [data-lang="en"] {
   margin: 0 auto;
 }
 
+.site-gallery {
+  padding: 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 .site-footer {
   text-align: center;
   padding: 48px;
