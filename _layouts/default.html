@@ -19,13 +19,7 @@
       setLanguage(localStorage.lang || 'en');
     </script>
     {% include header.html %}
-
-    {% if page.gallery %}
-      <main class="site-gallery">{{content}}</main>
-    {% else %}
-      <main class="site-content">{{content}}</main>
-    {% endif %}
-
+    <main class="site-content">{{content}}</main>
     {% include footer.html %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="/assets/main.js"></script>

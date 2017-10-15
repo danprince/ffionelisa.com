@@ -90,12 +90,6 @@ body[data-lang="cy"] [data-lang="en"] {
 
 .site-content {
   padding: 16px;
-  max-width: 820px;
-  margin: 0 auto;
-}
-
-.site-gallery {
-  padding: 16px;
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -328,6 +322,11 @@ body[data-lang="cy"] [data-lang="en"] {
 
 .button:hover {
   background: #578c57;
+}
+
+.page {
+  max-width: 820px;
+  margin: 0 auto;
 }
 
 .page img {
